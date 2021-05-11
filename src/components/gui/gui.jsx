@@ -206,37 +206,6 @@ const GUIComponent = props => {
                         onRequestClose={onRequestCloseBackdropLibrary}
                     />
                 ) : null}
-                <MenuBar
-                    accountNavOpen={accountNavOpen}
-                    authorId={authorId}
-                    authorThumbnailUrl={authorThumbnailUrl}
-                    authorUsername={authorUsername}
-                    canChangeLanguage={canChangeLanguage}
-                    canCreateCopy={canCreateCopy}
-                    canCreateNew={canCreateNew}
-                    canEditTitle={canEditTitle}
-                    canManageFiles={canManageFiles}
-                    canRemix={canRemix}
-                    canSave={canSave}
-                    canShare={canShare}
-                    className={styles.menuBarPosition}
-                    enableCommunity={enableCommunity}
-                    isShared={isShared}
-                    logo={logo}
-                    renderLogin={renderLogin}
-                    showComingSoon={showComingSoon}
-                    onClickAbout={onClickAbout}
-                    onClickAccountNav={onClickAccountNav}
-                    onClickLogo={onClickLogo}
-                    onCloseAccountNav={onCloseAccountNav}
-                    onLogOut={onLogOut}
-                    onOpenRegistration={onOpenRegistration}
-                    onProjectTelemetryEvent={onProjectTelemetryEvent}
-                    onSeeCommunity={onSeeCommunity}
-                    onShare={onShare}
-                    onStartSelectingFileUpload={onStartSelectingFileUpload}
-                    onToggleLoginOpen={onToggleLoginOpen}
-                />
                 <Box className={styles.bodyWrapper}>
                     <Box className={styles.flexWrapper}>
                         <Box className={styles.editorWrapper}>
