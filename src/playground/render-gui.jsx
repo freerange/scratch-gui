@@ -78,6 +78,7 @@ export default appTarget => {
                 backpackVisible
                 showComingSoon
                 backpackHost={backpackHost}
+                backpackVisible={false}
                 canSave={false}
                 onClickLogo={onClickLogo}
             />,
