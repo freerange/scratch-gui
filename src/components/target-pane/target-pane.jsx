@@ -46,10 +46,13 @@ const TargetPane = ({
     sprites,
     vm,
     ...componentProps
-}) => (
+}) => {
+  const { isRtl, ...fixedComponentProps } = componentProps;
+
+  return (
     <div
         className={styles.targetPane}
-        {...componentProps}
+        {...fixedComponentProps}
     >
 
         <SpriteSelectorComponent
@@ -100,7 +103,8 @@ const TargetPane = ({
             </div>
         </div>
     </div>
-);
+  )
+};
 
 const spriteShape = PropTypes.shape({
     costume: PropTypes.shape({
