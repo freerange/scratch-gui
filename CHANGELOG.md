@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.4.2](https://github.com/freerange/scratch-gui/compare/v5.4.1...v5.4.2) (2025-01-16)
+
+
+### Bug Fixes
+
+* foo ([189d992](https://github.com/freerange/scratch-gui/commit/189d9928fdeb931b06774a587c4af4555e8c2197))
+
 ## [5.4.1](https://github.com/freerange/scratch-gui/compare/v5.4.0...v5.4.1) (2025-01-16)
 
 
