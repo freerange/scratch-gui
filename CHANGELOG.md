@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.4.3](https://github.com/freerange/scratch-gui/compare/v5.4.2...v5.4.3) (2025-01-16)
+
+
+### Bug Fixes
+
+* fix permissions to write package to github packages ([daf55cf](https://github.com/freerange/scratch-gui/commit/daf55cf6331303575240a4dbb6046cabb60e27a6))
+* try again... ([0f8711b](https://github.com/freerange/scratch-gui/commit/0f8711b5946594106f8c4e25b37e8296cff6332a))
+* we also need permission to write to the repo ([392b3e2](https://github.com/freerange/scratch-gui/commit/392b3e2b54a1b4b3ac8d088f0b82f21762b0bce8))
+
 ## [5.4.2](https://github.com/freerange/scratch-gui/compare/v5.4.1...v5.4.2) (2025-01-16)
 
 
