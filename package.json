@@ -7,7 +7,7 @@
   "homepage": "https://github.com/scratchfoundation/scratch-gui#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/scratchfoundation/scratch-gui.git"
+    "url": "https://github.com/freerange/scratch-gui.git"
   },
   "private": true,
   "publishConfig": {
