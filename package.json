@@ -9,6 +9,10 @@
     "type": "git",
     "url": "https://github.com/scratchfoundation/scratch-gui.git"
   },
+  "private": true,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "main": "./dist/scratch-gui.js",
   "scripts": {
     "build": "npm run clean && webpack",
