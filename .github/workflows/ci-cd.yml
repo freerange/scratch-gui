@@ -18,6 +18,8 @@ permissions:
 jobs:
     ci-cd:
         runs-on: ubuntu-latest
+        permissions:
+            packages: write
         env:
             DETECT_CHROMEDRIVER_VERSION: "true"
             JEST_JUNIT_OUTPUT_DIR: test-results
@@ -80,8 +82,6 @@ jobs:
                 sed -e "s|hotfix/REPLACE|${{ github.ref_name }}|" --in-place release.config.js
                 fi
             - name: Semantic Release
-              permissions:
-                packages: write
               env:
                 NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
