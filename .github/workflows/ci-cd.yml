@@ -80,6 +80,8 @@ jobs:
                 sed -e "s|hotfix/REPLACE|${{ github.ref_name }}|" --in-place release.config.js
                 fi
             - name: Semantic Release
+              permissions:
+                packages: write
               env:
                 NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
