@@ -81,7 +81,7 @@ jobs:
                 fi
             - name: Semantic Release
               env:
-                NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+                NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
               run: npx --no -- semantic-release
             - name: Deploy playground to GitHub Pages
