@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.3.0](https://github.com/freerange/scratch-gui/compare/v5.2.0...v5.3.0) (2025-01-16)
+
+
+### Bug Fixes
+
+* use github token for npm publishing ([934bd33](https://github.com/freerange/scratch-gui/commit/934bd33a32ae9a175657a3fdec6fe1edad6dd0d5))
+
+
+### Features
+
+* testing ([04cfd33](https://github.com/freerange/scratch-gui/commit/04cfd33a8a56b80c71d5d5af34139a2706cd0b49))
+
 # [5.2.0](https://github.com/freerange/scratch-gui/compare/v5.1.29...v5.2.0) (2025-01-16)
 
 
